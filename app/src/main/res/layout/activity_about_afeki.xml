@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_afeki"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_button"
+    tools:context="tasks.com.bookproject.AboutAfekiActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#891ebf"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="140dp"
+            android:src="@drawable/main_back_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="من..ابراهيم الفقى"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+        <ImageView
+            android:id="@+id/more_books"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/more_books"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="الدكتور إبراهيم الفقى "
+                    android:textColor="#fff"
+                    android:textSize="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="204dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:lines="4"
+                    android:paddingTop="50dp"
+                    android:text=" عيش كل لحظه كأنهااخر لحظه عيش بالايمان
+عيش بالكفاح وقدر قيمة الحياه"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_gravity="right"
+                    android:src="@drawable/dr_alfeki" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_weight="1"
+                        android:background="@drawable/row_shap"
+                        android:gravity="right"
+                        android:padding="11dp"
+                        android:text=" ابراهيم محمد السيد الفقى "
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_gravity="right"
+                        android:background="@drawable/row_shap"
+                        android:gravity="right"
+                        android:padding="11dp"
+                        android:text=" الاسم      "
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_weight="1"
+                        android:background="@drawable/row_shap"
+                        android:gravity="right"
+                        android:padding="11dp"
+                        android:text=" 5-9-1950 فى الجيزه"
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_gravity="right"
+                        android:background="@drawable/row_shap"
+                        android:gravity="right"
+                        android:padding="11dp"
+                        android:text=" المواليد    "
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:background="@drawable/row_shap"
+                        android:gravity="right"
+                        android:padding="11dp"
+                        android:text="10-2-2012 فى القاهره"
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_gravity="right"
+                        android:background="@drawable/row_shap"
+                        android:gravity="right"
+                        android:padding="11dp"
+                        android:text="الوفاه       "
+                        android:textColor="#fff"
+
+                        android:textSize="15dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:background="@drawable/row_shap"
+                        android:gravity="right"
+                        android:padding="11dp"
+                        android:text="مصرى"
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_gravity="right"
+                        android:background="@drawable/row_shap"
+                        android:gravity="right"
+                        android:padding="11dp"
+                        android:text=" الجنسيه  "
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:background="@drawable/row_shap"
+                        android:gravity="right"
+                        android:padding="11dp"
+                        android:text="مدرب - مستشار - مؤلف"
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_gravity="right"
+                        android:background="@drawable/row_shap"
+                        android:gravity="right"
+                        android:padding="11dp"
+                        android:text="العمل        "
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:background="@drawable/row_shap"
+                        android:gravity="right"
+                        android:padding="11dp"
+                        android:text="نانسى ونرمين"
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_gravity="right"
+                        android:background="@drawable/row_shap"
+                        android:gravity="right"
+                        android:padding="11dp"
+                        android:text="الولاده      "
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:background="@drawable/row_shap"
+                        android:gravity="right"
+                        android:padding="11dp"
+                        android:text="@string/about_feki"
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
